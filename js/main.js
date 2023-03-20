@@ -72,6 +72,15 @@ const dogRender = () => {
                 let houseTop = house.getBoundingClientRect().top;
                 let houseRight = house.getBoundingClientRect().right;
                 let houseBottom = house.getBoundingClientRect().bottom;
+                // let dogLeft = dog.offsetLeft;
+                // let dogTop = dog.offsetTop;
+                // let dogRight = dog.offsetRight;
+                // let dogBottom = dog.offsetBottom;
+        
+                // let houseLeft = house.offsetLeft;
+                // let houseTop = house.offsetTop;
+                // let houseRight = house.offsetRight;
+                // let houseBottom = house.offsetBottom;
                 // console.log('dogLeft',dogLeft)
                 // console.log('dogright',dogRight)
                 // console.log('dogtop',dogTop)
