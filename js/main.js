@@ -11,7 +11,7 @@ const dogRender = () => {
         let y = Math.floor(Math.random() * 550);
     
         //console.log(x, y)
-        let htmlDog = `<div class="htmlDog" style="top:${y}px; left:${x}px" > <img src="../img/dog-nose.png" > <span>${dog.name}</span></div>`;
+        let htmlDog = `<div class="htmlDog" style="top:${y}px; left:${x}px" > <img src="./img/dog-nose.png" > <span>${dog.name}</span></div>`;
         
         //console.log(dog.name, x, y)
     
