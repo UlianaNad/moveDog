@@ -1,13 +1,46 @@
 .container {
+  margin: 0 auto;
   position: relative;
   width: 900px;
   height: 600px;
   background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .container .htmlDog {
   width: 50px;
   height: 50px;
-  background-color: aquamarine;
-  text-align: center;
+  text-align: end;
   position: absolute;
+  background-color: aqua;
+}
+.container .htmlDog img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container .dogHouse {
+  width: 150px;
+  height: 150px;
+  background: url("../img/pngwing.com.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .winner {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.alert {
+  width: 900px;
+  margin: 0 auto;
+}
+.alert .alertDog {
+  color: green;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
